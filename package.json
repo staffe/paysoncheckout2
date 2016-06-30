@@ -1,6 +1,6 @@
 {
   "name": "paysoncheckout2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A minimal repo which talks to the payson checkout 2.0 api (node)",
   "main": "index.js",
   "scripts": {

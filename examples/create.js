@@ -26,7 +26,7 @@ var payson = new PaysonPayment.Payson(vendorId, apiKey);
 var item = new PaysonPayment.OrderItem('Test', 'abc123', 49);
 
 // create a checkout
-var checkout = new PaysonPayment.Checkout('someId', 'https://www.example.com');
+var checkout = new PaysonPayment.Checkout('someId', 'https://www.example.com', 'https://www.example.com', 'https://www.example.com/api/incoming/payment', 'https://www.example.com/terms');
 
 // add item
 checkout.addItem(item);
