@@ -1,0 +1,30 @@
+{
+  "name": "paysoncheckout2",
+  "version": "0.0.1",
+  "description": "A minimal repo which talks to the payson checkout 2.0 api (node)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organismen/paysoncheckout2.git"
+  },
+  "keywords": [
+    "payson",
+    "api",
+    "paysoncheckout2.0",
+    "node",
+    "npm"
+  ],
+  "author": "Johan Asplund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/organismen/paysoncheckout2/issues"
+  },
+  "homepage": "https://github.com/organismen/paysoncheckout2#readme",
+  "dependencies": {
+    "request-promise": "^3.0.0"
+  }
+}
